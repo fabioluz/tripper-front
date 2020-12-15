@@ -1,0 +1,44 @@
+.invalid-feedback {
+  display: block;
+}
+
+.form-control.invalid {
+  border-color: #dc3545;
+}
+
+.form-control.invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 .2rem rgba(220,53,69,.25);
+}
+
+.login-container {
+  min-height: 80vh;
+}
+
+.login-container .form {
+  min-width: 30rem;
+}
+
+.page-container {
+  padding: 3rem 0 0 0;
+}
+
+.btn.btn-primary.btn-lg .spinner-border {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.btn-container {
+  position: relative;
+}
+
+.btn-container.loading .btn-label {
+  visibility: hidden;
+}
+
+.btn-container .btn-loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

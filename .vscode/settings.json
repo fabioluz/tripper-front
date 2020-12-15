@@ -1,0 +1,24 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag.purescript",
+                "settings": {
+                    "foreground": "#4EC9B0"
+                }
+            },
+            {
+                "scope": "keyword.other.arrow.purescript",
+                "settings": {
+                    "foreground": "#C586C0",
+                }
+            }
+        ]
+    },
+    "purescript.autocompleteAddImport": false,
+    "purescript.censorWarnings": [
+      "ImplicitImport" 
+    ]
+}
